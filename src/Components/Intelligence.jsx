@@ -17,7 +17,7 @@ const Intelligence =({value}) =>{
             <p>Height: {value.appearance.height[0]}</p>
             <p>Weight: {value.appearance.weight[0]}</p>
             <p>Eye Color: {value.appearance.eyecolor}</p>
-            <p>Hair Color: {value.appearance.hairColor}</p>
+            <p>Hair Color: {value.appearance[0]}</p>
         </div>
     )
 }

@@ -26,12 +26,22 @@
     text-align: center;
 }
 
-.container-buttons{
+#searched{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.containerCards div{
+.container-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+#but{
+    width: 8em;
+}
+
+.containerCards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

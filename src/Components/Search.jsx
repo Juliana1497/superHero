@@ -23,8 +23,8 @@ const Search = () => {
 
     return (
         <div>
-            <nav className="navbar bg-body-tertiary">
-                <div className="container-fluid">
+            <nav className="navbar bg-body-tertiary" >
+                <div className="container-fluid" id="searched">
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search by name" aria-label="Search" value={value} onChange={handleFetch}/>
                             <button className="btn btn-outline-dark" type="submit" onClick={handleFetch}><RiSearchLine /></button>

@@ -118,7 +118,7 @@ const Dashboard = () => {
             <h1 className='titulo'>Super Heroes</h1>
             <Search />
             <div className='container-buttons'>
-                <div onClick={intell}>
+                <div onClick={intell} >
                     {/* asignar en el componente Sort las funciones para cada propiedad de los datos necesarios para organizarlos */}
                     <Sort sortByIntelligence={() => sortByPowerstats("intelligence")} sortByStrength={() => sortByPowerstats("strength")} sortBySpeed={() => sortByPowerstats("speed")} sortByDurability={() => sortByPowerstats("durability")} sortByPower={() => sortByPowerstats("power")} sortByCombat={() => sortByPowerstats("combat")} sortByGender={() => sortByAppearance("gender")} sortByRace ={() => sortByAppearance("race")} sortByHeight={sortByH} sortByWeight={sortByW} sortByEye={() => sortByAppearance("eye-color")} sortByHair={() => sortByAppearance("hair-color")} />
 
