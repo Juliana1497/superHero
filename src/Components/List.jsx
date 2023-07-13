@@ -1,5 +1,6 @@
 import React from 'react'
 
+//Se trae desde el Dasboard la propiedad asignada en el mapeado para traer los datos especificos desde la API
 const List =({value}) =>{
     return (
         <div className="card" id='cards'> 

@@ -1,3 +1,4 @@
+/*--ESTILOS HEADER Y FOOTER--*/
 .header, .footer{
     height: 5em;
     width: 100%;
@@ -20,6 +21,7 @@
     margin: 0.1em;
 }
 
+/*--ESTILOS DASHBOARD--*/
 .titulo{
     text-align: center;
 }

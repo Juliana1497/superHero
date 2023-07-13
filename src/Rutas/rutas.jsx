@@ -9,6 +9,7 @@ const Rutas = () => {
             <Routes>
                 <Route path="/" element={<Navigate to="/inicio" />} />
                 <Route path="/inicio" element={<Home />} />
+                {/*Ruta en donde se organizaran los datos*/}
                 <Route path="/int" element={<Intelligence />} />
             </Routes>
         </BrowserRouter>

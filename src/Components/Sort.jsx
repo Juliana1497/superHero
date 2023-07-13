@@ -1,9 +1,11 @@
 import React from "react";
 import {PiArrowsDownUpDuotone} from 'react-icons/pi'
 
+//Se trae desde el dashboard las propiedades asignadas para organizar deacuerdo al dato
 const Sort = ({ sortByIntelligence, sortByStrength, sortBySpeed, sortByDurability, sortByPower, sortByCombat, sortByGender, sortByRace, sortByHeight, sortByWeight, sortByEye, sortByHair}) => {
     return (
         <div>
+            {/*Botones para disparar la funcion de organizar deacuerdo al dato */}
             <div className="btn-group-vertical" role="group" aria-label="Vertical button group">
                 <p>Order by <br />Powerstats:</p>
                 <div onClick={sortByIntelligence}>
