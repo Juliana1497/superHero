@@ -29,7 +29,7 @@
     justify-content: space-around;
 }
 
-.containerCards{
+.containerCards div{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
